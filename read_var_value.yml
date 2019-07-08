@@ -1,0 +1,7 @@
+#This script is to read a variable value from command line
+---
+ - name: This is play1
+   hosts: group1
+   vars_prompt:
+    name: var1
+    prompt: Enter any value?
